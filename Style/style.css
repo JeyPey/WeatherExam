@@ -1,0 +1,29 @@
+html {
+    /* box-sizing: border-box; */
+    padding: 0;
+    margin: 0;
+}
+
+*,
+*::before,
+*::after {
+    /* box-sizing: inherit; */
+}
+
+.container{
+    min-height: 100vh;
+    background-color: #D5D3D3;
+    
+}
+
+.exam-name{
+    font-weight: bold;
+    font-size: 20px;
+    color: #158EA1;
+}
+
+.navbar{
+    position: relative;
+    left: 0;
+    right: 0;
+}
